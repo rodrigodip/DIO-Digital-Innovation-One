@@ -1,7 +1,7 @@
 ### Repositório criado para organizar meus estudos na plataforma de cursos DIO.
 A **DIO** é a maior comunidade educacional gratuita para desenvolvedores de softwares aprenderem, praticarem e se conectarem com grandes oportunidades. Através da nossa inovadora plataforma centrada no protagonismo e na coaprendizagem em comunidade, especialistas das empresas mais inovadoras do mercado compartilham conhecimento e criam experiências práticas de aprendizagem que potencializam os talentos de forma rápida, eficiente e divertida.  
 
-DIO - Digital Innovation One](https://www.dio.me/)  
+[DIO - Digital Innovation One](https://www.dio.me/)  
 
 #### Cursos Realizados:  
 
