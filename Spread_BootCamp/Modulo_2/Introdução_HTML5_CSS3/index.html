@@ -4,26 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site Pessoal</title>
+    <title>Exercício DIO</title>
+    <style>
+        .body{
+            max-width: 750px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular';
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+            margin: 0 auto;
+        }
+    </style>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header class="head">
-        <img src="avatar_pessoal.png" alt="Milo" width="100x" class="avatar">
-        <h1 id="title" cla>Rodrigo de Paula</h1>
+<body class="body">
+    <header class="site-header">
+        <img class="site-header-avatar" src="avatar_pessoal.png" alt="Milo">
+        <div class="site-header-box">
+        <h1 class="site-header-title">Rodrigodip</h1>
+        <h3>Blog Pessoal</h5>
+        </div>
     </header>
-    <section>
+    <section class="post-section">
         <header>
-            <h2 class="subtitle">Posts</h2>
+            <h2>//// POSTS</h2>
         </header>
-        <article>
+        <article class="new-post">
             <header>
-                <h3 class="post_title">Post #1</h3>
+                <h3>Post #1</h3>
                 <img src="img_post.jpg" alt="Imagem mostrando códigos html">
             </header>
-            <p>
-                Mussum Ipsum, cacilds vidis litro abertis <a href="https://github.com/rodrigodip" target="_blank">GitHubis</a>. Interagi no mé, cursus quis, vehicula ac nisi. Atirei o pau no gatis, per gatis num morreus.A ordem dos tratores não altera o pão duris. Leite de capivaris, leite de mula manquis sem cabeça. Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus.Interagi no mé, cursus quis, vehicula ac nisi.Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio.
-            </p>
+            <p>Mussum Ipsum, cacilds vidis litro abertis <a href="https://github.com/rodrigodip" target="_blank">GitHubis</a>. Interagi no mé, cursus quis, vehicula ac nisi. Atirei o pau no gatis, per gatis num morreus.A ordem dos tratores não altera o pão duris. Leite de capivaris, leite de mula manquis sem cabeça. Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus.Interagi no mé, cursus quis, vehicula ac nisi.Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio.</p>
         </article>
     </section>
     <footer>
@@ -32,10 +45,7 @@
                 <a href="mailto:rodrigodip@gmail.com">rodrigodip@gmail.com</a>
             </li>
             <li>
-                <a href="https://github.com/rodrigodip" target="_blank">GitHubis</a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/rodrigodip/" target="_blank">linkedin</a>
+                <a href="https://github.com/rodrigodip" target="_blank">github</a>
             </li>
         </ul>
     </footer>

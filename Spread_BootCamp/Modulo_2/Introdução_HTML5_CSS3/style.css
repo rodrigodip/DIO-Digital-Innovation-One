@@ -1,8 +1,36 @@
-#title, .subtitle, .post_title{
-   color: blue; 
+* {
+    box-sizing: border-box;
 }
-
-.post_title{
-    font-size: 16;
-    font-style: italic;
+.site-header{
+    background-color:  rgba(0, 0, 0, 0.034);
+    border-radius: 3px;
+    padding-left: px;
+    display: flex;
+}
+.site-header-avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 15px 15px;
+}
+.site-header-box{
+    width: 100%;
+    padding-left: 25px ;
+}
+.site-header-box h1{    
+    font-size: 40pt;
+    padding-top: 15px;
+    margin-bottom: 0;    
+}
+.post-section{
+    padding-top: 30px;
+}
+.new-post{
+    padding: 5px 15px;
+    background-color:  rgba(0, 0, 0, 0.08);
+    border-radius: 3px;
+}
+.new-post p{
+    padding: 5px 0px;
+    text-align: justify;
 }
