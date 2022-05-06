@@ -18,7 +18,7 @@ O Bootcamp Spread Fullstack Developer é um programa gratuito para pessoas que q
  - Primeiros Passos para o Desenvolvimento Web -- 6hrs  
  - Introdução a criação de websites com HTML5 e CSS3 -- 6hrs  
  - Posicionando elementos com Flexbox em CSS -- 4hrs  
- - **Desafio de Projeto** - Recriando a página inicial do Instagram
+ - **Desafio de Projeto** - Recriando a página inicial do Instagram >[pasta do projeto](https://github.com/rodrigodip/DIO-Digital-Innovation-One/tree/master/Spread_BootCamp/Modulo_2/CSS_Flexbox/Recriando-login-instagram)<
 
 
 >**Módulo 3** - JavaScript
