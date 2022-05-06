@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(240, 240, 240)
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.mobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.mobile img{
+    height: 50rem;
+}
+
+.cx-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    width: 50%;
+    min-height: 35rem;
+
+}
+.grupo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 1.3rem 0;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+    background-color: white;
+
+}
+
+.cx-continue{
+     min-height: 19rem;
+}
+.insta-logo{
+    height: 3rem;
+}
+.avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.avatar img {
+    height: 6rem;
+}
+.insta-login{
+    background-color: #0095f6;
+    color:white;
+    padding: 8px;
+    border-radius: 5px;
+}
+.insta-logout{
+    color: #0095f6;
+    margin-top: 1rem;
+}
+.nao-conta{
+    color: rgb(168, 168, 168);
+}
+.link{
+    color: #0095f6;
+}
+.baixe-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+.stores-box{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+
+}
+.stores{
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+.stores:nth-child(1) {
+    background-image: url('./img/apple-button.png');
+}
+
+.stores:nth-child(2) {
+    background-image: url('./img/googleplay-button.png');
+}
+
+/* media queries */
+
+
+@media (max-width: 1024px) {
+    .wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    .wrapper {
+        width: 90%;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .continue {
+        width: 100%;
+    }
+    
+    .grupo {
+        border: 1px solid transparent;
+    }
+}
